@@ -1,18 +1,18 @@
 {% set name = "mdolab-baseclasses" %}
-{% set version = "1.5.2" %}
+{% set version = "1.5.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: "https://github.com/mdolab/baseclasses/archive/refs/tags/v{{ version }}.tar.gz"
-  sha256: 3abe2960c54d03c8e737975ed1d7b94f34a99f23adea13fb2b10a8217c31b984
+  url: https://github.com/mdolab/baseclasses/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: f41fa6f1faec2ca5633bc138d96ce7c730aef2debe813c3e7273b21cb6cda1fc
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -40,7 +40,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE.md
-  summary: 'Base classes used with MDO Lab tools.'
+  summary: Base classes used with MDO Lab tools.
   doc_url: https://github.com/mdolab/baseclasses/blob/master/README.md
   dev_url: https://github.com/mdolab/baseclasses
 
