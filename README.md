@@ -148,6 +148,6 @@ Feedstock Maintainers
 =====================
 
 * [@eirikurj](https://github.com/eirikurj/)
-* [@ewu63](https://github.com/nwu63/)
+* [@ewu63](https://github.com/ewu63/)
 * [@whophil](https://github.com/whophil/)
 
