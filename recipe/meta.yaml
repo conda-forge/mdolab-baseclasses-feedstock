@@ -1,5 +1,5 @@
 {% set name = "mdolab-baseclasses" %}
-{% set version = "1.8.4" %}
+{% set version = "1.8.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mdolab/baseclasses/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 890fd472fc5cea670c4994b54a270b94c246a5519e8cfb9daf8c3726f6095986
+  sha256: 98300a7544ec40d137bd24efad12b6acfb06c5cb7c8a0b43776a7758ca4baa68
 
 build:
   noarch: python
